@@ -22,10 +22,10 @@ const Footermain = () => {
                 <h5 className="text-uppercase mb-4 font-weight-bold text-light ">
                   {" "}
                   {/* footer logo */}
-                  <img
-                        src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+                  <img style={{width:'110px',marginTop:'-17px'}}
+                        src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Zomato_Logo.png"
                         alt="Zomato-logo"
-                        className="header-logo"
+                        // className="header-logo"
                     />
                    </h5>
                   <p>     
@@ -42,10 +42,10 @@ const Footermain = () => {
                   {" "}
                   CONTACT US
                 </h5>
-                <p> 1244, Parkstreet Avenue, NewYork </p>
-                <p> +123 34343433, +454545 455 </p>
-                <p> info@feri.com, e-feri@gmail.com</p>
-                <p> info.e-feri.com.www.infoferi.com </p>
+                <p> 1244, Dhanmondi, Bangladash </p>
+                <p> +0162 7392810, +0177 9608956 </p>
+                <p> md.jony.soft@gmail.com, jony35-260@diu.edu.bd</p>
+                <p> md.jony.soft@gmail.com </p>
               </div>
   
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 texts ">
