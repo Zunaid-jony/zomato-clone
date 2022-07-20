@@ -1,6 +1,10 @@
 import React from 'react';
 
 import './Footermain.css'
+import {BsFacebook}  from 'react-icons/bs';
+import {BsLinkedin}  from 'react-icons/bs';
+import {BsGithub}  from 'react-icons/bs';
+
 
 const Footermain = () => {
     return (
@@ -63,8 +67,18 @@ const Footermain = () => {
                   {" "}
                   SIGN UP FOR NEWSLETTER
                 </h5>
-                <p> standard </p>
+              
                 <h6> FOLLOW US ON</h6>
+              
+                <p style={{fontSize:'26px',color:'#2239e5' }}> <BsFacebook ></BsFacebook>&nbsp; &nbsp; 
+                 <BsLinkedin></BsLinkedin> &nbsp;
+                 <BsGithub></BsGithub>
+                 {/* npm run build  */}
+                 
+                 
+                 
+                 </p>
+
               </div>
             </div>
           </div>
