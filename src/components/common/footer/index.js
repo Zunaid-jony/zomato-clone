@@ -1,8 +1,13 @@
 import React from "react";
+import Footermain from "./Footermain";
 
 const Footer = () => {
   return (
-    <div className="absolute-center max-width">Zomato &copy clone </div>
+    <div >
+      <Footermain></Footermain>
+      
+      
+     </div>
   );
 };
 
