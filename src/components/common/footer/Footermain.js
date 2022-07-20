@@ -21,9 +21,14 @@ const Footermain = () => {
               <div className="col-md-3 clo-lg-3 col-xl-3 mx-auto  mt-3 align-itmes-left texts">
                 <h5 className="text-uppercase mb-4 font-weight-bold text-light ">
                   {" "}
-                  Company name
-                </h5>
-                <p>
+                  {/* footer logo */}
+                  <img
+                        src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+                        alt="Zomato-logo"
+                        className="header-logo"
+                    />
+                   </h5>
+                  <p>     
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem Ipsum has been the industry{" "}
                 </p>
